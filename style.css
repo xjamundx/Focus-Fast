@@ -1,0 +1,38 @@
+body {
+    background: white;
+}
+
+#lens {
+    background: #ccc;
+    border-radius: 125px;    
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+
+#lens img {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    -webkit-filter: blur(10px);
+}
+
+#tabs {
+    margin-bottom: 25px;
+}
+
+.tab {
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 18px;
+    padding: 6px;
+    background: -webkit-linear-gradient(#2c2b2b 22.85%, #474646 59.27%, #000000 100%);
+    background: -moz-linear-gradient(#2c2b2b 22.85%, #474646 59.27%, #000000 100%);
+    background: linear-gradient(#2c2b2b 22.85%, #474646 59.27%, #000000 100%);
+}
+
+.tab:hover {
+    box-shadow: 0px 0px 5px 4px white
+}
